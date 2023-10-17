@@ -1,0 +1,8 @@
+*.out
+bun.lockb
+node_modules/
+/docker/data/
+/docker/backup/
+/docker/log/
+/docker/cache/
+/rust/xedis

@@ -1,0 +1,232 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@w5/onexit':
+    specifier: ^0.0.8
+    version: 0.0.8
+  '@w5/pg':
+    specifier: ^0.0.46
+    version: 0.0.46
+  '@w5/redis':
+    specifier: ^0.0.38
+    version: 0.0.38
+  '@w5/split':
+    specifier: ^0.0.1
+    version: 0.0.1
+  '@w5/u8':
+    specifier: ^0.0.3
+    version: 0.0.3
+  '@w5/uintb64':
+    specifier: ^0.0.6
+    version: 0.0.6
+  '@w5/utf8':
+    specifier: ^0.0.3
+    version: 0.0.3
+  uWebSockets:
+    specifier: github:uNetworking/uWebSockets.js#v20.31.0
+    version: github.com/uNetworking/uWebSockets.js/809b99d2d7d12e2cbf89b7135041e9b41ff84084
+
+devDependencies:
+  chalk:
+    specifier: ^5.3.0
+    version: 5.3.0
+
+packages:
+
+  /@w5/gid@0.0.2:
+    resolution: {integrity: sha512-5bmSO8JWHmhtdPWntsL5Izlj5tAOkAxctz0sYonaSIijcoBpzjGHrGq0+3Iu4v6FNRfMmLtCWhQniwjbuHpAeQ==}
+    dev: false
+
+  /@w5/onexit@0.0.8:
+    resolution: {integrity: sha512-zlWFrcSjqqmUGw+R3xhtrDAZH3s3IxSt+p3OOcQWM1AQySCvVeI8yKjUy7OYBdfQPvZneZbSn42lYJTQMQjl9w==}
+    dev: false
+
+  /@w5/pg@0.0.46:
+    resolution: {integrity: sha512-MFyBd8UaOvVg49RcaZjz3N6IltqQdZIxNny6GXuWW8fCSfaouMBYCAd/tX8P3grmMHT+Bha0lrRsBduZC0PeBQ==}
+    dependencies:
+      '@w5/onexit': 0.0.8
+      '@w5/write': 0.0.1
+      postgres: 3.3.5
+    dev: false
+
+  /@w5/redis@0.0.38:
+    resolution: {integrity: sha512-tqXR6bOmd+aHPsqAgtyjDoXl+AKukyqL65SKxkaPcH/0B+5DBnfOU5va/eZmm/U70Vrk3dOkBx++Z7hj/OfEwg==}
+    dependencies:
+      '@w5/gid': 0.0.2
+      '@w5/onexit': 0.0.8
+      '@w5/u8': 0.0.3
+      '@w5/uintbin': 0.0.8
+      '@w5/utf8': 0.0.3
+      '@w5/xedis': 0.0.49
+    dev: false
+
+  /@w5/split@0.0.1:
+    resolution: {integrity: sha512-02aOfR5SGClD1mqXAxjYETLkD62x8PBPKNPLLHJfO9oA0rah9xrJ5VEu3WtBK6whz7bc7QL//777tUgDUJ4AaQ==}
+    dev: false
+
+  /@w5/u8@0.0.3:
+    resolution: {integrity: sha512-2AGCc0Doaa6iYhcXCaTtOJkKSN/FDuolqj/5eo5/pI9hUYBgFW+juci7v9qc5J2Rm9abOYIa2uND9oaJXhsnBw==}
+    dev: false
+
+  /@w5/uintb64@0.0.6:
+    resolution: {integrity: sha512-56clmzrOq96J0z+iMIIe7+EqSibAp/h95P+Y/Mfby3UFr2I11cUE7k8A08Cg8XHgaHCUonB+nMYeKSvpy8bvdw==}
+    dependencies:
+      '@w5/urlb64': 0.0.2
+      '@w5/vbyte': 0.0.1
+    dev: false
+
+  /@w5/uintbin@0.0.8:
+    resolution: {integrity: sha512-ikJjqKMjJfAandzghFT2h2S96xJvEFpkTjU4EWZMKnVzeROFmDiSMwmQEt8pOeivjdKUuxJyfMaaOU4tEP1v7g==}
+    dependencies:
+      '@w5/vbyte': 0.0.1
+    dev: false
+
+  /@w5/urlb64@0.0.2:
+    resolution: {integrity: sha512-BC3iTjVou4F8Wy8zmzI+tBwzJ7doGf4tlXAVeKgZ/n8OlFWYo+o0aidfyD6Dp/KndHNzZ7xOV3Z/c/7dvVyE7A==}
+    dev: false
+
+  /@w5/utf8@0.0.3:
+    resolution: {integrity: sha512-FYkLRJ++nxAVLAzsD953X/Yc7ln7QQeUD2UsbbmtEUDYQYK2kvA7vqqKgwjuMQFUqwJdYdcHx7qtP7IgMUdHsw==}
+    dev: false
+
+  /@w5/vbyte@0.0.1:
+    resolution: {integrity: sha512-QkFNMIDTE35YFYSMPJUJD6YIQ2MA6aAmRfWmG+6GDIJK3rMywlXqlgONOU7pPyMzTKvVB9cNGO4EEZmvxnuWZQ==}
+    dev: false
+
+  /@w5/write@0.0.1:
+    resolution: {integrity: sha512-VyQXX2C3yRqfS7D5B+yCcsR1tvzZ1DzPLi5kugBOe/EeL+LOD3ftFamfik7wQr2TG7XQ7VF0snUpqVLaytwfOA==}
+    dev: false
+
+  /@w5/xedis-android-arm-eabi@0.0.49:
+    resolution: {integrity: sha512-lRoP1e8NAvcXuVlC3c3AB+sa3CD9L739psQTPcAtJVFeB3ILplBTtgkEQQM6HZmTHkIq06mzpEb6/Nc8iGffyA==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-android-arm64@0.0.49:
+    resolution: {integrity: sha512-vGjye4IKteIVIBD/mDXss5PDeLp9gOzP5btvWjgrIFFfs8FzNQ/zfA5KiksnDC0RM/n7byKbA9tkZ6v9y5mTFw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-darwin-arm64@0.0.49:
+    resolution: {integrity: sha512-04+n+L+Z+thPYoqedfsJ49TOWMRJM+fhtsXqxl6B5/UPw/MqskgUO05js2bRoHDBV1Jn9SdIgVD2jHWZhQ00Nw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-darwin-universal@0.0.49:
+    resolution: {integrity: sha512-LW1JX/vLPWtMe4tuZETSwLCyuYB5n2mtyMpolMSh9In55H2uS4JhAJgGOeJ27OLP7enURL9lghFYHMMCRkTBUg==}
+    engines: {node: '>= 10'}
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-darwin-x64@0.0.49:
+    resolution: {integrity: sha512-1luIM8vT2AR0ZDS8hXEQz8YMdWvLecTWIeEP/Of7WCNYpsPljGi1tT4pZRig8Ul3/MTgCCjfLuHM0z5QuQVuvw==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-linux-arm-gnueabihf@0.0.49:
+    resolution: {integrity: sha512-TUlVIMlxXa8yrlJBwlcf5SyyBpc6n8/UDseMwkJRtinbb4uSPIIZmpYPBpQSWNSd+kmj1/Fq/zIDh1MLqtztgA==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-linux-arm64-gnu@0.0.49:
+    resolution: {integrity: sha512-DzG5pVXZJGgva/c5xzv/m6lyQPehwlb/E36fS/vsQ8rPBcZvfDsFHFZNEmr2ydjpSoYPX46gutWnA0EO+2spnw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-linux-arm64-musl@0.0.49:
+    resolution: {integrity: sha512-HrHbto+NPjUzN7MfugIkyW05ftuAMzEAOtwXoBr4Atcgj7ukoghAJE1nAEqnMo6NhDnglLikkCm8QcVp/QndWg==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-linux-x64-gnu@0.0.49:
+    resolution: {integrity: sha512-Q+rlekPxpE5lFbn0ZWLdPhWVa0Jhf1JjTpERK/0E0ulqdvSOX80/kMlNxdcvPW7AzpdqSm+Zv3LR0QME4UKLkA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-linux-x64-musl@0.0.49:
+    resolution: {integrity: sha512-5lZFE1+IWvk55QJJFRfc9c54j600S/6FOfJr9MN3czgmlXfBeX7HCpjWSXLvVOlqX+KI3YpOEvAJgl+WV0XwTg==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis-win32-x64-msvc@0.0.49:
+    resolution: {integrity: sha512-VBTXDqcIsGEA5K3iTxU3gldtuvDOFtPXln5VNyRhFvyf1lrJoEDzaXOhkr4NnX7YcrxVRSNpCn3NrO4Wul46sA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/xedis@0.0.49:
+    resolution: {integrity: sha512-9dJyX0jizw3jUmXhkT1T4WG3UZ29XPYyxC/QFO5nkfRmcCD/uG1zFZP4X7vbXuJHV2uo9SeWjrOzUEfD1b45cw==}
+    engines: {node: '>= 20'}
+    optionalDependencies:
+      '@w5/xedis-android-arm-eabi': 0.0.49
+      '@w5/xedis-android-arm64': 0.0.49
+      '@w5/xedis-darwin-arm64': 0.0.49
+      '@w5/xedis-darwin-universal': 0.0.49
+      '@w5/xedis-darwin-x64': 0.0.49
+      '@w5/xedis-linux-arm-gnueabihf': 0.0.49
+      '@w5/xedis-linux-arm64-gnu': 0.0.49
+      '@w5/xedis-linux-arm64-musl': 0.0.49
+      '@w5/xedis-linux-x64-gnu': 0.0.49
+      '@w5/xedis-linux-x64-musl': 0.0.49
+      '@w5/xedis-win32-x64-msvc': 0.0.49
+    dev: false
+
+  /chalk@5.3.0:
+    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: true
+
+  /postgres@3.3.5:
+    resolution: {integrity: sha512-+JD93VELV9gHkqpV5gdL5/70HdGtEw4/XE1S4BC8f1mcPmdib3K5XsKVbnR1XcAyC41zOnifJ+9YRKxdIsXiUw==}
+    dev: false
+
+  github.com/uNetworking/uWebSockets.js/809b99d2d7d12e2cbf89b7135041e9b41ff84084:
+    resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/809b99d2d7d12e2cbf89b7135041e9b41ff84084}
+    name: uWebSockets.js
+    version: 20.31.0
+    dev: false
